@@ -5,6 +5,9 @@ import viteLogo from "/vite.svg";
 
 function App() {
   const [count, setCount] = useState(0);
+
+
+
   return (
     <>
       <div>
@@ -21,6 +24,11 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+
+
+
+
+        
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
